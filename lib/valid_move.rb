@@ -2,7 +2,7 @@
   
 def valid_move?(board, input)
   
-  if input.between?(0,8) && board[input] != " "
+  if input.between?(0,8) && board[input] == " "
     return true
   else
     return false
